@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.au.tests.AmaysimTest" duration-ms="385598" started-at="2017-05-05T18:03:26Z" finished-at="2017-05-05T18:09:52Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="385598" started-at="2017-05-05T18:03:26Z" finished-at="2017-05-05T18:09:52Z">
+      <class name="com.au.tests.AmaysimTest">
+        <test-method status="PASS" signature="VerifyLogIn()[pri:1, instance:com.au.tests.AmaysimTest@1324409e]" name="VerifyLogIn" duration-ms="74983" started-at="2017-05-06T02:03:26Z" finished-at="2017-05-06T02:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogIn -->
+        <test-method status="PASS" signature="validateSetNickName()[pri:2, instance:com.au.tests.AmaysimTest@1324409e]" name="validateSetNickName" duration-ms="31082" started-at="2017-05-06T02:04:41Z" finished-at="2017-05-06T02:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSetNickName -->
+        <test-method status="PASS" signature="validateEditPIN()[pri:3, instance:com.au.tests.AmaysimTest@1324409e]" name="validateEditPIN" duration-ms="29480" started-at="2017-05-06T02:05:12Z" finished-at="2017-05-06T02:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEditPIN -->
+        <test-method status="PASS" signature="VerifyselectCallerID()[pri:4, instance:com.au.tests.AmaysimTest@1324409e]" name="VerifyselectCallerID" duration-ms="46283" started-at="2017-05-06T02:05:42Z" finished-at="2017-05-06T02:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyselectCallerID -->
+        <test-method status="PASS" signature="VerifyselectCallWaiting()[pri:5, instance:com.au.tests.AmaysimTest@1324409e]" name="VerifyselectCallWaiting" duration-ms="45735" started-at="2017-05-06T02:06:28Z" finished-at="2017-05-06T02:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyselectCallWaiting -->
+        <test-method status="PASS" signature="VerifyselectVoiceMail()[pri:6, instance:com.au.tests.AmaysimTest@1324409e]" name="VerifyselectVoiceMail" duration-ms="45721" started-at="2017-05-06T02:07:14Z" finished-at="2017-05-06T02:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyselectVoiceMail -->
+        <test-method status="PASS" signature="VerifySelectUsageAlerts()[pri:7, instance:com.au.tests.AmaysimTest@1324409e]" name="VerifySelectUsageAlerts" duration-ms="66180" started-at="2017-05-06T02:07:59Z" finished-at="2017-05-06T02:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySelectUsageAlerts -->
+        <test-method status="PASS" signature="VerifyselectInternationalRoaming()[pri:8, instance:com.au.tests.AmaysimTest@1324409e]" name="VerifyselectInternationalRoaming" duration-ms="45728" started-at="2017-05-06T02:09:05Z" finished-at="2017-05-06T02:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyselectInternationalRoaming -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.au.tests.AmaysimTest@1324409e]" name="tearDown" is-config="true" duration-ms="392" started-at="2017-05-06T02:09:51Z" finished-at="2017-05-06T02:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.au.tests.AmaysimTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.au.tests.AmaysimTest -->
+</testng-results>

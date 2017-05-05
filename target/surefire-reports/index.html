@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com.au.tests.AmaysimTest">
+              <span class="suite-name border-passed">com.au.tests.AmaysimTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com.au.tests.AmaysimTest">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com.au.tests.AmaysimTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com.au.tests.AmaysimTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com.au.tests.AmaysimTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com.au.tests.AmaysimTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.au.tests.AmaysimTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com.au.tests.AmaysimTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-com.au.tests.AmaysimTest" class="hide-methods passed suite-com.au.tests.AmaysimTest"> (hide)</a> <!-- hide-methods passed suite-com.au.tests.AmaysimTest -->
+                      <a href="#" panel-name="suite-com.au.tests.AmaysimTest" class="show-methods passed suite-com.au.tests.AmaysimTest"> (show)</a> <!-- show-methods passed suite-com.au.tests.AmaysimTest -->
+                    </span>
+                    <div class="method-list-content passed suite-com.au.tests.AmaysimTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.au.tests.AmaysimTest" title="com.au.tests.AmaysimTest" hash-for-method="VerifyLogIn">VerifyLogIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.au.tests.AmaysimTest" title="com.au.tests.AmaysimTest" hash-for-method="VerifySelectUsageAlerts">VerifySelectUsageAlerts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.au.tests.AmaysimTest" title="com.au.tests.AmaysimTest" hash-for-method="VerifyselectCallWaiting">VerifyselectCallWaiting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.au.tests.AmaysimTest" title="com.au.tests.AmaysimTest" hash-for-method="VerifyselectCallerID">VerifyselectCallerID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.au.tests.AmaysimTest" title="com.au.tests.AmaysimTest" hash-for-method="VerifyselectInternationalRoaming">VerifyselectInternationalRoaming</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.au.tests.AmaysimTest" title="com.au.tests.AmaysimTest" hash-for-method="VerifyselectVoiceMail">VerifyselectVoiceMail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.au.tests.AmaysimTest" title="com.au.tests.AmaysimTest" hash-for-method="validateEditPIN">validateEditPIN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.au.tests.AmaysimTest" title="com.au.tests.AmaysimTest" hash-for-method="validateSetNickName">validateSetNickName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-com.au.tests.AmaysimTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-com.au.tests.AmaysimTest" class="panel com.au.tests.AmaysimTest">
+          <div class="suite-com.au.tests.AmaysimTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.au.tests.AmaysimTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogIn">
+                  </a> <!-- VerifyLogIn -->
+                  <span class="method-name">VerifyLogIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySelectUsageAlerts">
+                  </a> <!-- VerifySelectUsageAlerts -->
+                  <span class="method-name">VerifySelectUsageAlerts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyselectCallWaiting">
+                  </a> <!-- VerifyselectCallWaiting -->
+                  <span class="method-name">VerifyselectCallWaiting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyselectCallerID">
+                  </a> <!-- VerifyselectCallerID -->
+                  <span class="method-name">VerifyselectCallerID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyselectInternationalRoaming">
+                  </a> <!-- VerifyselectInternationalRoaming -->
+                  <span class="method-name">VerifyselectInternationalRoaming</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyselectVoiceMail">
+                  </a> <!-- VerifyselectVoiceMail -->
+                  <span class="method-name">VerifyselectVoiceMail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEditPIN">
+                  </a> <!-- validateEditPIN -->
+                  <span class="method-name">validateEditPIN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSetNickName">
+                  </a> <!-- validateSetNickName -->
+                  <span class="method-name">validateSetNickName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.au.tests.AmaysimTest-class-passed -->
+        </div> <!-- panel com.au.tests.AmaysimTest -->
+        <div panel-name="test-xml-com.au.tests.AmaysimTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;com.au.tests.AmaysimTest&quot;&gt;
+  &lt;test name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.au.tests.AmaysimTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- com.au.tests.AmaysimTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.au.tests.AmaysimTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.au.tests.AmaysimTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.au.tests.AmaysimTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.au.tests.AmaysimTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.au.tests.AmaysimTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.au.tests.AmaysimTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.au.tests.AmaysimTest');
+function tableData_com.au.tests.AmaysimTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyLogIn')
+data.setCell(0, 2, 'com.au.tests.AmaysimTest')
+data.setCell(0, 3, 74983);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifySelectUsageAlerts')
+data.setCell(1, 2, 'com.au.tests.AmaysimTest')
+data.setCell(1, 3, 66180);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyselectCallerID')
+data.setCell(2, 2, 'com.au.tests.AmaysimTest')
+data.setCell(2, 3, 46283);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyselectCallWaiting')
+data.setCell(3, 2, 'com.au.tests.AmaysimTest')
+data.setCell(3, 3, 45735);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyselectInternationalRoaming')
+data.setCell(4, 2, 'com.au.tests.AmaysimTest')
+data.setCell(4, 3, 45728);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyselectVoiceMail')
+data.setCell(5, 2, 'com.au.tests.AmaysimTest')
+data.setCell(5, 3, 45721);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateSetNickName')
+data.setCell(6, 2, 'com.au.tests.AmaysimTest')
+data.setCell(6, 3, 31082);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateEditPIN')
+data.setCell(7, 2, 'com.au.tests.AmaysimTest')
+data.setCell(7, 3, 29480);
+window.suiteTableData['com.au.tests.AmaysimTest']= { tableData: data, tableDiv: 'times-div-com.au.tests.AmaysimTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-com.au.tests.AmaysimTest">
+              </div> <!-- times-div-com.au.tests.AmaysimTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.au.tests.AmaysimTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.au.tests.AmaysimTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.au.tests.AmaysimTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.au.tests.AmaysimTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.au.tests.AmaysimTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogIn</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSetNickName</span>
+                <span class="method-start">74984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateEditPIN</span>
+                <span class="method-start">106066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyselectCallerID</span>
+                <span class="method-start">135546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyselectCallWaiting</span>
+                <span class="method-start">181829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyselectVoiceMail</span>
+                <span class="method-start">227564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySelectUsageAlerts</span>
+                <span class="method-start">273285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyselectInternationalRoaming</span>
+                <span class="method-start">339465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">385194 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
