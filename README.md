@@ -1,6 +1,6 @@
 # Amaysim
 
-This is Test Automation Project that checks the Functionality of the Manage Settings Page for Amaysim Application
+This is a Test Automation Project that checks the Functionality of the Manage Settings Page for Amaysim Application
 
 Prerequisite: Please Make sure the following are installed to your system:
 1. Maven
