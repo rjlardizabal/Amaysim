@@ -110,6 +110,13 @@ public class AmaysimTest {
 	  
   }
   
+  
+  @Test(priority=9, enabled=true)
+  public void VerifyEnableCallForward(){
+	  settingspage.EditForwarding("0412 345 678");
+	  
+  }
+  
   	@AfterClass(enabled=true)
 	public void tearDown() {
 		driver.close();

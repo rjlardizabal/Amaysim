@@ -5,8 +5,8 @@
     <classes>
       <class name="com.au.tests.AmaysimTest">
         <methods>
+          <include name="VerifyEnableCallForward"/>
           <include name="tearDown"/>
-          <include name="VerifySelectUsageAlerts"/>
         </methods>
       </class> <!-- com.au.tests.AmaysimTest -->
     </classes>

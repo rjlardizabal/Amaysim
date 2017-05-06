@@ -84,6 +84,18 @@ public class AmaysimSettingsPage {
     
     @FindBy(id="confirm_popup_yes")
     private WebElement btn_popupYes;
+    
+    @FindBy(css=".confirm_popup_confirm")
+    private WebElement btn_confirmPopup;
+    
+    @FindBy(id="edit_settings_call_forwarding")
+    private WebElement link_EditCallFowarding;
+    
+    @FindBy(id="my_amaysim2_setting_call_divert_number")
+    private WebElement txtbox_ForwardCallsto;
+    
+    @FindBy(css=".button-green-action.small-12.medium-7.medium-offset-1.large-offset-2.columns")
+    private WebElement btn_SaveCallFoward;
 
 
 	
@@ -226,6 +238,27 @@ public class AmaysimSettingsPage {
 		new WebDriverWait(driver, 20).until(ExpectedConditions.elementToBeClickable(btn_popupYes));
 		btn_popupYes.click();
 		WaitForSpinner();
+	}
+	
+	public void ClickConfirmPopUp(){
+		
+		new WebDriverWait(driver, 20).until(ExpectedConditions.elementToBeClickable(btn_confirmPopup));
+		btn_confirmPopup.click();
+		WaitForSpinner();
+	}
+	
+	public void EditForwarding(String forwardingCallsTo){
+		new WebDriverWait(driver, 20).until(ExpectedConditions.elementToBeClickable(link_EditCallForwarding));
+		link_EditCallForwarding.click();
+		this.ClickConfirmPopUp();
+		
+		new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOf(txtbox_ForwardCallsto));
+		txtbox_ForwardCallsto.clear();
+		txtbox_ForwardCallsto.sendKeys(forwardingCallsTo);
+		btn_SaveCallFoward.click();
+		
+		
+		
 	}
 
 }
